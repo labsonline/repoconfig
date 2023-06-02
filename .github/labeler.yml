@@ -1,0 +1,10 @@
+# Add 'repo' label to any root file changes
+repo:
+  - "*"
+
+# Add 'github-actions' label to any changes in the '.github' directory
+github-actions:
+  - .github/workflows/*
+  - .github/workflows/*/**
+  - .github/dependabot.yml
+  - .github/dependabot.yml/**
