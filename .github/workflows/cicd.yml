@@ -5,11 +5,6 @@ on:
   - pull_request
 
 jobs:
-  assign:
-      runs-on: ubuntu-latest
-      if: ${{ github.event.action == 'opened' }} && ${{ github.event_name == 'pull_request' }}
-      steps:
-        - uses: kentaro-m/auto-assign-action@v1.2.5
   label:
     uses: labsonline/cicd/.github/workflows/label.yml@main
   lint:
