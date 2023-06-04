@@ -8,3 +8,18 @@ github-actions:
   - .github/workflows/*/**
   - .github/dependabot.yml
   - .github/dependabot.yml/**
+
+# Add 'devcontainer' label to any changes in the '.devcontainer' directory
+# and the '.docker' directory
+devcontainer:
+  - .devcontainer/*
+  - .devcontainer/**/*
+  - .docker/*
+  - .docker/**/*
+
+# Add 'docs' label to any changes in the 'docs' directory
+# and '*.md' files
+docs:
+  - docs/*
+  - docs/*/**
+  - '*.md'
