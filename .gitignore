@@ -157,5 +157,3 @@ fabric.properties
 *.vsix
 
 # Project Specific
-.trunk/*
-!.trunk/trunk.yaml
