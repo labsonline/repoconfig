@@ -1,8 +1,0 @@
-name: Pull Request Review
-
-on:
-  pull_request: {}
-
-jobs:
-  gate:
-    uses: labsonline/cicd/.github/workflows/review.yml@main
