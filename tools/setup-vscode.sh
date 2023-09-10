@@ -18,6 +18,7 @@ set -e
 
 DEFAULT_EXTENSION_LIST=(
   "aaron-bond.better-comments"
+  "bierner.github-markdown-preview"
   "christian-kohler.path-intellisense"
   "codezombiech.gitignore"
   "eamodio.gitlens"
