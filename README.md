@@ -3,8 +3,9 @@
 ---
 
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/labsonline/repoconfig/badge)](https://securityscorecards.dev/viewer/?uri=github.com/labsonline/repoconfig)
-
-[![Contiuos Integration](https://github.com/labsonline/repoconfig/actions/workflows/cicd.yml/badge.svg)](https://github.com/labsonline/repoconfig/actions/workflows/cicd.yml) [![Review](https://github.com/labsonline/repoconfig/actions/workflows/required/labsonline/cicd/.github/workflows/_prw.yml/badge.svg)](https://github.com/labsonline/repoconfig/actions/workflows/required/labsonline/cicd/.github/workflows/_prw.yml) [![Releases](https://github.com/labsonline/repoconfig/actions/workflows/release.yml/badge.svg)](https://github.com/labsonline/repoconfig/actions/workflows/release.yml)
+[![Contiuos Integration](https://github.com/labsonline/repoconfig/actions/workflows/cicd.yml/badge.svg)](https://github.com/labsonline/repoconfig/actions/workflows/cicd.yml)
+[![Review](https://github.com/labsonline/repoconfig/actions/workflows/required/labsonline/cicd/.github/workflows/_prw.yml/badge.svg)](https://github.com/labsonline/repoconfig/actions/workflows/required/labsonline/cicd/.github/workflows/_prw.yml)
+[![Releases](https://github.com/labsonline/repoconfig/actions/workflows/release.yml/badge.svg)](https://github.com/labsonline/repoconfig/actions/workflows/release.yml)
 
 ---
 
