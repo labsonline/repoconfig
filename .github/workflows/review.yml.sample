@@ -10,8 +10,15 @@ on:
 
 permissions: read-all
 
+# Add custom review jobs here
 jobs:
   review:
-    uses: labsonline/cicd/.github/workflows/review.yml@424f749d3881c969d360beadb70ed8614066be03 # v0.1.2 https://github.com/labsonline/cicd/commit/424f749d3881c969d360beadb70ed8614066be03
-    permissions:
-      pull-requests: write
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "This is a review job"
+
+  # The following is required and added automatically (do no add it manually)
+  # review:
+  #   uses: labsonline/cicd/.github/workflows/review.yml@424f749d3881c969d360beadb70ed8614066be03 # v0.1.2 https://github.com/labsonline/cicd/commit/424f749d3881c969d360beadb70ed8614066be03
+  #   permissions:
+  #     pull-requests: write
