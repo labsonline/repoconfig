@@ -16,6 +16,11 @@ jobs:
       issues: write
       pull-requests: write
       repository-projects: write
+  # TODO: Uncomment to enable AST analysis
+  # ast:
+  #   uses: labsonline/cicd/.github/workflows/ast.yml@424f749d3881c969d360beadb70ed8614066be03 # v0.1.2 https://github.com/labsonline/cicd/commit/424f749d3881c969d360beadb70ed8614066be03
+  #   with:
+  #     codeql-language: ""
   gate:
     uses: labsonline/cicd/.github/workflows/gate.yml@424f749d3881c969d360beadb70ed8614066be03 # v0.1.2 https://github.com/labsonline/cicd/commit/424f749d3881c969d360beadb70ed8614066be03
   scorecard:
