@@ -8,7 +8,7 @@
 [![Releases][releases-badge]][releases-link]
 
 [ossf-score-badge]: https://api.securityscorecards.dev/projects/github.com/labsonline/repoconfig/badge
-[ossf-score-link]: (https://securityscorecards.dev/viewer/?uri=github.com/labsonline/repoconfig)
+[ossf-score-link]: https://securityscorecards.dev/viewer/?uri=github.com/labsonline/repoconfig
 [ci-badge]: https://github.com/labsonline/repoconfig/actions/workflows/cicd.yml/badge.svg
 [ci-link]: https://github.com/labsonline/repoconfig/actions/workflows/cicd.yml
 [review-badge]: https://github.com/labsonline/repoconfig/actions/workflows/required/labsonline/cicd/.github/workflows/_prw.yml/badge.svg
