@@ -39,11 +39,11 @@ DEFAULT_EXTENSION_LIST=(
 )
 
 INSTALL_RECOMMENDATIONS=false
-[[ "${1}" == "--recommendations" ]] && INSTALL_RECOMMENDATIONS=true
+[[ ${1} == "--recommendations" ]] && INSTALL_RECOMMENDATIONS=true
 
 # Install extensions except tunk.io for Windows
 for extension in "${DEFAULT_EXTENSION_LIST[@]}"; do
-  [[ "${OSTYPE}" == "msys" && "${extension}" == "trunk.io" ]] && {
+  [[ ${OSTYPE} == "msys" && ${extension} == "trunk.io" ]] && {
     continue
   }
 
@@ -53,7 +53,7 @@ done
 # Install recommendations if any
 [[ -n ${INSTALL_RECOMMENDATIONS} ]] && {
   recommendations_list=$(jq -r '.recommendations' .vscode/extensions.json)
-  [[ "${recommendations_list}" == "[]" ]] && {
+  [[ ${recommendations_list} == "[]" ]] && {
     echo "No recommendations to install"
     exit 0
   }

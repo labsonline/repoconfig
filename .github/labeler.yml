@@ -8,3 +8,8 @@ github-actions:
   - .github/workflows/*/**
   - .github/dependabot.yml
   - .github/dependabot.yml/**
+
+# Add 'tooling' label to any changes in the 'tools' directory
+tooling:
+  - tools/*
+  - tools/*/**
